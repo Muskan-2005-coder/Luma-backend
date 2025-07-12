@@ -33,6 +33,10 @@ app.use(
 );
 // OnaF6EGHhgYY9OPv
 
+app.get('/', (req, res) => {
+  res.send('Server is up and running!');
+});
+
 // Routes
 app.get("/health", (req, res) => {
   res.json({ status: "ok", message: "Server is running" });

@@ -26,6 +26,7 @@
     "morgan": "^1.10.0",
     "openai": "^4.24.1",
     "react-confetti": "^6.4.0",
+    "serve-favicon": "^2.5.1",
     "winston": "^3.11.0"
   },
   "devDependencies": {
